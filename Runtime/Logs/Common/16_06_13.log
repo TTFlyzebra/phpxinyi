@@ -1,0 +1,30 @@
+[ 2016-06-13T21:12:21+08:00 ] 192.168.1.88 /xinyi/img/arrow-white.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-13T21:12:22+08:00 ] 192.168.1.88 /xinyi/img/arrow-white.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-13T21:12:38+08:00 ] 192.168.1.88 /xinyi/img/arrow-white.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-13T21:30:36+08:00 ] 192.168.1.88 /xinyi/img/arrow-white.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Img
+
+[ 2016-06-13T23:15:59+08:00 ] 192.168.1.88 /xinyi/itme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Itme
+

@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css" />
+</head>
+<body>
+	<div class="topbar-wrap">
+		<div class="topbar-inner">
+			<div class="topbar-logo-wrap">
+				<h4 class="topbar-logo"><if condition="$username neq ''">{$username}<else/>未登陆</if></h4>
+			</div>
+		</div>
+	</div>
+	<div class="sidebar-wrap">
+		<div class="sidebar-content">
+			<ul class="sidebar-list">
+				<?php if($super||in_array("/Admin/Role",$paths)||in_array("/Admin/Node",$paths)||in_array("/Admin/Access",$paths)||in_array("/Admin/Verify",$paths)){ ?>
+				<li><a href="#"><i class="icon-font">&#xe018;</i>访问权限</a>
+					<ul class="sub-menu">
+						<?php if($super||in_array("/Admin/Role",$paths)){ ?><li><a href="{:U('/Admin/Role')}"><i class="icon-font">&#xe014;</i>角色管理</a></li><?php } ?>
+						<?php if($super||in_array("/Admin/Node",$paths)){ ?><li><a href="{:U('/Admin/Node')}"><i class="icon-font">&#xe016;</i>节点管理</a></li><?php } ?>
+						<?php if($super||in_array("/Admin/Access",$paths)){ ?><li><a href="{:U('/Admin/Access')}"><i class="icon-font">&#xe020;</i>权限设置</a></li><?php } ?>
+						<?php if($super||in_array("/Admin/Verify",$paths)){ ?><li><a href="{:U('/Admin/Verify')}"><i class="icon-font">&#xe015;</i>申核用户</a></li><?php } ?>
+					</ul>
+				</li>
+				<?php } ?>
+				<?php if($super||in_array("/Admin/Welcome",$paths)){ ?>
+				<li><a href="#"><i class="icon-font">&#xe031;</i>移动端管理</a>
+					<ul class="sub-menu">
+						<?php if($super||in_array("/Admin/Welcome",$paths)){ ?><li><a href="{:U('/Admin/Welcome')}"><i class="icon-font">&#xe048;</i>欢迎界面广告</a></li><?php } ?>
+						<?php if($super||in_array("/Admin/HomeShop",$paths)){ ?><li><a href="{:U('/Admin/HomeShop')}"><i class="icon-font">&#xe048;</i>首页商家推荐</a></li><?php } ?>
+						<?php if($super||in_array("/Admin/Product/find",$paths)){ ?><li><a href="{:U('/Admin/Product/find')}"><i class="icon-font">&#xe050;</i>首页产品推荐</a></li><?php } ?>
+					</ul>
+				</li>
+				<?php } ?>
+				<?php if($super||in_array("/Admin/Attr",$paths)||in_array("/Admin/Type",$paths)||in_array("/Admin/Product/find",$paths)||in_array("/Admin/Product",$paths)){ ?>
+				<li><a href="#"><i class="icon-font">&#xe031;</i>商品管理</a>
+					<ul class="sub-menu">
+						<?php if($super||in_array("/Admin/Attr",$paths)){ ?><li><a href="{:U('/Admin/Attr')}"><i class="icon-font">&#xe048;</i>商品属性</a></li><?php } ?>
+						<?php if($super||in_array("/Admin/Type",$paths)){ ?><li><a href="{:U('/Admin/Type')}"><i class="icon-font">&#xe048;</i>商品分类</a></li><?php } ?>
+						<?php if($super||in_array("/Admin/Product/find",$paths)){ ?><li><a href="{:U('/Admin/Product/find')}"><i class="icon-font">&#xe050;</i>商品查询</a></li><?php } ?>
+						<?php if($super||in_array("/Admin/Product",$paths)){ ?><li><a href="{:U('/Admin/Product')}"><i class="icon-font">&#xe026;</i>添加商品</a></li><?php } ?>
+					</ul>
+				</li>
+				<?php } ?>
+				<li><a href="#"><i class="icon-font">&#xe014;</i>用户管理</a>
+					<ul class="sub-menu">
+						<?php if($username!=null){ ?><li><a href="#"><i class="icon-font">&#xe002;</i>修改资料</a></li><?php } ?>
+						<li><a href="{:U('/Admin/Register')}"><i class="icon-font">&#xe026;</i>注册商店</a></li>
+						<li><a href="{:U('/Admin/Login/logout')}"><if condition="$username neq ''"><i class="icon-font">&#xe059;</i>退出登陆<else/><i class="icon-font">&#xe014;</i>登陆帐号</if></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

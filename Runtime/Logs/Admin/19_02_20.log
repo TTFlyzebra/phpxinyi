@@ -1,0 +1,2852 @@
+[ 2019-02-20T21:12:21+08:00 ] 192.168.1.88 /myweb/xinyi/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: shopname /home/flyzebra/myweb/xinyi/Apps/Admin/Controller/AuthController.class.php 第 13 行.
+NOTIC: [8] Undefined index: uid /home/flyzebra/myweb/xinyi/Apps/Admin/Controller/AuthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0015s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/flyzebra/myweb/xinyi/Apps/Admin/Common/function.php 第 25 行.
+NOTIC: [8] Undefined index: superman /home/flyzebra/myweb/xinyi/Apps/Admin/Controller/AuthController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2019-02-20T21:12:23+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: shopname /home/flyzebra/myweb/xinyi/Apps/Admin/Controller/AuthController.class.php 第 13 行.
+NOTIC: [8] Undefined index: uid /home/flyzebra/myweb/xinyi/Apps/Admin/Controller/AuthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/flyzebra/myweb/xinyi/Apps/Admin/Common/function.php 第 25 行.
+NOTIC: [8] Undefined index: superman /home/flyzebra/myweb/xinyi/Apps/Admin/Controller/AuthController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011857s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011629s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000003s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000030s ]
+
+[ 2019-02-20T21:12:24+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+
+[ 2019-02-20T21:12:24+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2019-02-20T21:12:30+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Ajax/log
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `fz_shop` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `fz_shop` WHERE `shopname` = 'flyzebra' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2019-02-20T21:12:31+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `fz_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `fz_shop` WHERE `shopname` = 'flyzebra' AND `loginword` = '10e208ffd957f5488f795e555f483af8' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_shop_log` [ RunTime:0.0047s ]
+SQL: INSERT INTO `fz_shop_log` (`shop_id`,`logintime`,`loginIP`) VALUES ('18','1550668350','192.168.1.88') [ RunTime:0.0048s ]
+
+[ 2019-02-20T21:12:31+08:00 ] 192.168.1.88 /myweb/xinyi/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2019-02-20T21:12:32+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0012s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007781s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003923s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2019-02-20T21:12:33+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `fz_welcome` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `fz_welcome`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012528s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007172s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2019-02-20T21:12:40+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001655s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000005s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2019-02-20T21:12:42+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Node
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0013s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `fz_node`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006951s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2019-02-20T21:12:43+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `fz_access` [ RunTime:0.0010s ]
+SQL: SELECT `node_id` FROM `fz_access` WHERE `role_id` = 0  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `fz_node`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fz_access`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014474s ]
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 36 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005863s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2019-02-20T21:12:44+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `fz_shop` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`shopname`,`peoplename`,`peoplephone`,`shopphone`,`address`,`regtime`,`regIP`,`countshop`,`countmoney`,`level`,`token`,`describe`,`lock`,`type` FROM `fz_shop`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='18' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='19' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='20' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='21' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='26' [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='27' [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='28' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='29' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='30' [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.025886s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004292s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.020406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.024611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000131s ]
+
+[ 2019-02-20T21:12:47+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0012s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003772s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2019-02-20T21:12:47+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Node
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `fz_node`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006716s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2019-02-20T21:12:48+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `fz_access` [ RunTime:0.0019s ]
+SQL: SELECT `node_id` FROM `fz_access` WHERE `role_id` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fz_node`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_access`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014167s ]
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 36 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005617s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2019-02-20T21:12:48+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `fz_shop` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`shopname`,`peoplename`,`peoplephone`,`shopphone`,`address`,`regtime`,`regIP`,`countshop`,`countmoney`,`level`,`token`,`describe`,`lock`,`type` FROM `fz_shop`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='18' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='19' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='20' [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='21' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='26' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='27' [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='28' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='29' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='30' [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004897s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.014746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2019-02-20T21:12:54+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Node
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0013s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `fz_node`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006816s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2019-02-20T21:13:20+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `fz_welcome` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fz_welcome`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004853s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002135s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2019-02-20T21:13:43+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Node
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_node`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003597s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002582s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000004s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2019-02-20T21:13:44+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002787s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001548s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000004s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2019-02-20T21:13:45+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `fz_welcome` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_welcome`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005609s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003354s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000134s ]
+
+[ 2019-02-20T21:13:46+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product/find
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002825s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001555s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000188s ]
+
+[ 2019-02-20T21:13:47+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/HomeShop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `fz_shop` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`shopname`,`peoplename`,`peoplephone`,`shopphone`,`address`,`regtime` FROM `fz_shop` WHERE `type` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `fz_shop_home` [ RunTime:0.0032s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='26' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='27' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='28' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='29' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='30' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.026920s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004351s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.022284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.026613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2019-02-20T21:13:49+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product/find
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001381s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+
+[ 2019-02-20T21:13:51+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Attr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `fz_pattr`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002883s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2019-02-20T21:13:52+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `fz_ptype`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010825s ]
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003116s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2019-02-20T21:13:53+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000023s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_pattr`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_ptype`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.069946s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069074s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.070659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2019-02-20T21:13:55+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product/find
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002673s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001398s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2019-02-20T21:13:56+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_pattr`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fz_ptype`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001317s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000004s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2019-02-20T21:14:00+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product/find
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000008s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.000696s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000295s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000003s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2019-02-20T21:14:01+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `fz_pattr`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_ptype`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004970s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2019-02-20T21:14:07+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000717s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2019-02-20T21:14:15+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006827s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004477s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000119s ]
+
+[ 2019-02-20T21:14:16+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Node
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `fz_node`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006657s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2019-02-20T21:14:16+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `fz_access` [ RunTime:0.0011s ]
+SQL: SELECT `node_id` FROM `fz_access` WHERE `role_id` = 0  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_node`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fz_access`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014117s ]
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 36 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005868s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2019-02-20T21:14:17+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `fz_shop` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`shopname`,`peoplename`,`peoplephone`,`shopphone`,`address`,`regtime`,`regIP`,`countshop`,`countmoney`,`level`,`token`,`describe`,`lock`,`type` FROM `fz_shop`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='18' [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='19' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='20' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='21' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='26' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='27' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='28' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='29' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='30' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003735s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.012687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000206s ]
+
+[ 2019-02-20T21:14:18+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `fz_welcome` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `fz_welcome`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005713s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002900s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2019-02-20T21:14:18+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/HomeShop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `fz_shop` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`shopname`,`peoplename`,`peoplephone`,`shopphone`,`address`,`regtime` FROM `fz_shop` WHERE `type` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_shop_home` [ RunTime:0.0010s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='26' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='27' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='28' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='29' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='30' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004296s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2019-02-20T21:14:19+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product/find
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000933s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2019-02-20T21:14:20+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Attr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `fz_pattr`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007525s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004158s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2019-02-20T21:14:21+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0012s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `fz_ptype`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006018s ]
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002795s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2019-02-20T21:14:22+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product/find
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000955s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2019-02-20T21:14:22+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_pattr`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_ptype`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005992s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000178s ]
+
+[ 2019-02-20T21:14:24+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_ptype`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007344s ]
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003990s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2019-02-20T21:14:25+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Attr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_pattr`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002705s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2019-02-20T21:14:26+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product/find
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002021s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000882s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2019-02-20T21:14:27+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_ptype`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007669s ]
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003827s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2019-02-20T21:14:28+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product/find
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000943s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2019-02-20T21:14:29+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_pattr`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_ptype`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003633s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2019-02-20T21:14:33+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004849s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003503s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000150s ]
+
+[ 2019-02-20T21:14:37+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000038s ]
+SQL: SHOW COLUMNS FROM `fz_shop` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`shopname`,`peoplename`,`peoplephone`,`shopphone`,`address`,`regtime`,`regIP`,`countshop`,`countmoney`,`level`,`token`,`describe`,`lock`,`type` FROM `fz_shop`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='18' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='19' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='20' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='21' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='26' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='27' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='28' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='29' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='30' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003059s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000004s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2019-02-20T21:14:50+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Node
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fz_node`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003855s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003207s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000005s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2019-02-20T21:14:51+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001201s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000005s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2019-02-20T21:14:52+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Node
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_node`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006821s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2019-02-20T21:14:52+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `fz_access` [ RunTime:0.0011s ]
+SQL: SELECT `node_id` FROM `fz_access` WHERE `role_id` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fz_node`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_access`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012675s ]
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 36 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 43 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 49 行.
+NOTIC: [8] Undefined index: access /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/ff90e9603868abd64cf17bfaf5ea9be9.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006751s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2019-02-20T21:14:53+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `fz_shop` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`shopname`,`peoplename`,`peoplephone`,`shopphone`,`address`,`regtime`,`regIP`,`countshop`,`countmoney`,`level`,`token`,`describe`,`lock`,`type` FROM `fz_shop`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='18' [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='19' [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='20' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='21' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='26' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='27' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='28' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='29' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,remark FROM fz_role_user AS a, fz_role AS b WHERE a.role_id = b.id AND a. user_id='30' [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_role`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018842s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003774s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.014871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2019-02-20T21:14:53+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/HomeShop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `fz_shop` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`shopname`,`peoplename`,`peoplephone`,`shopphone`,`address`,`regtime` FROM `fz_shop` WHERE `type` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `fz_shop_home` [ RunTime:0.0010s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='26' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='27' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='28' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='29' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009957s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001369s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000003s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2019-02-20T21:14:55+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `fz_welcome` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `fz_welcome`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006505s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001228s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000004s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2019-02-20T21:14:56+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/HomeShop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `fz_shop` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`shopname`,`peoplename`,`peoplephone`,`shopphone`,`address`,`regtime` FROM `fz_shop` WHERE `type` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_shop_home` [ RunTime:0.0010s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='26' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='27' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='28' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='29' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `show` FROM `fz_shop_home` WHERE ( 1=1 AND shop_id='30' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011822s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003948s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2019-02-20T21:14:57+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product/find
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000922s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2019-02-20T21:14:58+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Attr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_pattr`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003767s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2019-02-20T21:14:58+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `fz_ptype`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005383s ]
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+NOTIC: [8] Undefined index: name /home/flyzebra/myweb/xinyi/Runtime/Cache/Admin/707b16be43de1247e1cd48ae9a29332d.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002903s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2019-02-20T21:14:59+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `fz_pattr`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fz_ptype`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007620s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003759s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2019-02-20T21:15:00+08:00 ] 192.168.1.88 /myweb/xinyi/Admin/Product/find
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `fz_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fz_role_user` WHERE `user_id` = '18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_role` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `fz_role` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_node` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.id,name,pid FROM fz_access AS a, fz_node AS b WHERE a.node_id = b.id AND a. role_id='20' [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000868s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+

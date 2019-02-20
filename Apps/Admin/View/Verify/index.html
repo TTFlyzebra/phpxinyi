@@ -1,0 +1,61 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>宇翔科技后台管理</title>
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript">
+	var ajaxurl = '{:U("/Admin/Verify/verify")}'
+</script>
+<script type="text/javascript" src="__PUBLIC__/js/admin-verify.js"></script>
+</head>
+<body>
+	<div class="crumb-wrap">
+			<span class="icon-font">&emsp;&ensp;<a href="{:U('/Admin')}">首页</a></span> 
+			<span class="crumb-step">&gt; <a href="#">申核用户</a></span>
+	</div>
+	<div class="main-wrap">
+		<div class="result-wrap">
+			<table class="admin-tab" width="100%">
+				<tbody align="right">
+					<tr style="background: #efefef">
+						<th width="5%">ID</th>
+						<th width="10%">商店名称</th>
+						<th width="8%">店主姓名</th>
+						<th width="10%">店主手机</th>
+						<th width="10%">商店电话</th>
+						<th>商店地址</th>
+						<th width="14%">注册时间</th>
+						<th width="15%">申核操作</th>
+					</tr>
+					<foreach name='shop' item='s'>
+					<tr>
+						<th>{$s.id}</th>
+						<td>{$s.shopname}</td>
+						<td>{$s.peoplename}</td>
+						<th>{$s.peoplephone}</th>
+						<th>{$s.shopphone}</th>
+						<td>{$s.address}</td>
+						<th>{$s.regtime|date="Y-m-d H:i",###}</th>
+						<th><select style="padding-bottom: 5px; height: 26px; font-size: 14px" name="role{$s.id}" id="role{$s.id}">
+								<option>未申核</option>
+								<foreach name='role' item='r'> <if condition="$r['id'] eq $s['role_id']">
+								<option value="{$r.id}" selected="selected">{$r.remark}</option>
+								<else />
+								<option value="{$r.id}">{$r.remark}</option>
+								</if> 
+								</foreach>
+							</select><input type="button" class="btn btn-primary" value="通过申核" onclick="javascript:verify('{$s.id}');">
+						</th>
+					</tr>
+					</foreach>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="dlg-mask"></div>
+	<!-- 添加菜单 Start-->
+	<div class="dlg-content">正在向服务器提交请求.....</div>
+</body>
+</html>

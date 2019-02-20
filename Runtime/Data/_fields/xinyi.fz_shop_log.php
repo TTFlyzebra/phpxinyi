@@ -1,0 +1,1 @@
+a:5:{i:0;s:7:"shop_id";i:1;s:7:"loginIP";i:2;s:9:"logintime";i:3;s:3:"gps";s:5:"_type";a:4:{s:7:"shop_id";s:7:"int(11)";s:7:"loginIP";s:11:"varchar(32)";s:9:"logintime";s:7:"int(11)";s:3:"gps";s:12:"varchar(255)";}}

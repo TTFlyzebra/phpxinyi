@@ -1,0 +1,53 @@
+[ 2016-06-19T21:11:38+08:00 ] 192.168.1.88 /xinyi/API/Product/type/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `fz_product` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fz_product` WHERE `ptype_id` = 0  [ RunTime:0.0000s ]
+
+[ 2016-06-19T21:11:45+08:00 ] 192.168.1.88 /xinyi/API/Product/type/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fz_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fz_product` WHERE `ptype_id` = 26  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fz_product_imgurl` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='59' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: mapping_order D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='59' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0050s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='60' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='60' [ RunTime:0.0005s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='61' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='61' [ RunTime:0.0005s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='62' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='62' [ RunTime:0.0005s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='63' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\PHPServer\Apache24\htdocs\xinyi\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='63' [ RunTime:0.0005s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0000s ]
+

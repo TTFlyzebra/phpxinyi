@@ -1,0 +1,976 @@
+[ 2018-11-07T21:58:13+08:00 ] 192.168.1.104 /myweb/xinyi/API/Welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_welcome` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `fz_welcome`  [ RunTime:0.0003s ]
+
+[ 2018-11-07T21:58:25+08:00 ] 192.168.1.104 /myweb/xinyi/API/User/upLoginInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `fz_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `fz_user` WHERE `id` = 117 LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `fz_user` SET `loginname`=NULL,`nickname`='宇翔科技',`loginword`='d41d8cd98f00b204e9800998ecf8427e',`telephone`=NULL,`openid`='2035EB7D382C45688D1AB390F199F9D2',`loginwith`='QQ',`pictureurl`='http://q.qlogo.cn/qqapp/1105211644/2035EB7D382C45688D1AB390F199F9D2/100',`address`=NULL,`level`='10',`logincount`='51',`regtime`='1462644768',`token`=NULL,`lock`='1' WHERE `id` = 117 [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `fz_user_log` [ RunTime:0.0016s ]
+SQL: INSERT INTO `fz_user_log` (`user_id`,`logintime`,`loginIP`) VALUES ('117','1541599105','192.168.1.104') [ RunTime:0.0043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026133s ]
+
+[ 2018-11-07T21:58:26+08:00 ] 192.168.1.104 /myweb/xinyi/API/HomeShop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_shop_home` [ RunTime:0.0020s ]
+SQL: SELECT `shop_id` FROM `fz_shop_home`  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `fz_shop` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `fz_shop` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_shop_imgurl` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `fz_shop_imgurl` WHERE ( 1=1 AND shop_id='26' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `fz_shop` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fz_shop_imgurl` WHERE ( 1=1 AND shop_id='27' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_shop` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fz_shop_imgurl` WHERE ( 1=1 AND shop_id='28' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fz_shop` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fz_shop_imgurl` WHERE ( 1=1 AND shop_id='29' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fz_shop` WHERE ( 1=1 AND id='30' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fz_shop_imgurl` WHERE ( 1=1 AND shop_id='30' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-07T21:58:26+08:00 ] 192.168.1.104 /myweb/xinyi/API/HomeProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_product` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `fz_product` LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_product_imgurl` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='57' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='57' [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0032s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='58' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='58' [ RunTime:0.0007s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='59' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='59' [ RunTime:0.0006s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='60' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='60' [ RunTime:0.0004s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='61' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='61' [ RunTime:0.0004s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='62' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: map[ 2018-11-07T21:58:26+08:00 ] 192.168.1.104 /myweb/xinyi/API/HomeProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `fz_product` LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `fz_product_imgurl` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='57' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='57' [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0035s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='58' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='58' [ RunTime:0.0008s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='59' ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='59' [ RunTime:0.0005s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='60' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='60' [ RunTime:0.0003s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='61' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='61' [ RunTime:0.0003s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='62' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='62' [ RunTime:0.0003s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='63' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='63' [ RunTime:0.0005s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='64' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='64' [ RunTime:0.0003s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0002s ]
+
+ping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='62' [ RunTime:0.0004s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='63' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='63' [ RunTime:0.0005s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='64' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='64' [ RunTime:0.0003s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-11-07T21:58:26+08:00 ] 192.168.1.104 /myweb/xinyi/API/HomeProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_product` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `fz_product` LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_product_imgurl` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='57' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='57' [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0031s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='58' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='58' [ RunTime:0.0018s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='59' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='59' [ RunTime:0.0006s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='60' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='60' [ RunTime:0.0004s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='61' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='61' [ RunTime:0.0004s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='62' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='62' [ RunTime:0.0005s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='63' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='63' [ RunTime:0.0003s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='64' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='64' [ RunTime:0.0003s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-11-07T21:58:36+08:00 ] 192.168.1.104 /myweb/xinyi/API/Ptype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `fz_ptype`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000142s ]
+
+[ 2018-11-07T21:58:36+08:00 ] 192.168.1.104 /myweb/xinyi/API/Product/type/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_product` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fz_product` WHERE `ptype_id` = 27  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_product_imgurl` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='64' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='64' [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0006s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-07T21:58:36+08:00 ] 192.168.1.104 /myweb/xinyi/API/Product/type/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fz_product` WHERE `ptype_id` = 26  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_product_imgurl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='59' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='59' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0004s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='60' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='60' [ RunTime:0.0004s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='61' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='61' [ RunTime:0.0004s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='62' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='62' [ RunTime:0.0004s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='63' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='63' [ RunTime:0.0003s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-11-07T21:58:44+08:00 ] 192.168.1.104 /myweb/xinyi/API/Ptype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `fz_ptype`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000119s ]
+
+[ 2018-11-07T21:58:44+08:00 ] 192.168.1.104 /myweb/xinyi/API/Product/type/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fz_product` WHERE `ptype_id` = 27  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_product_imgurl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='64' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='64' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0004s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-11-07T21:58:44+08:00 ] 192.168.1.104 /myweb/xinyi/API/Product/type/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `fz_product` WHERE `ptype_id` = 26  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_product_imgurl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='59' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='59' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0005s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='60' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='60' [ RunTime:0.0003s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='61' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='61' [ RunTime:0.0003s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='62' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='62' [ RunTime:0.0003s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='63' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='63' [ RunTime:0.0003s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-11-07T21:58:44+08:00 ] 192.168.1.104 /myweb/xinyi/API/HomeShop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_shop_home` [ RunTime:0.0006s ]
+SQL: SELECT `shop_id` FROM `fz_shop_home`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_shop` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `fz_shop` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_shop_imgurl` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fz_shop_imgurl` WHERE ( 1=1 AND shop_id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_shop` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_shop_imgurl` WHERE ( 1=1 AND shop_id='27' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fz_shop` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fz_shop_imgurl` WHERE ( 1=1 AND shop_id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fz_shop` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_shop_imgurl` WHERE ( 1=1 AND shop_id='29' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fz_shop` WHERE ( 1=1 AND id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fz_shop_imgurl` WHERE ( 1=1 AND shop_id='30' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-11-07T21:58:44+08:00 ] 192.168.1.104 /myweb/xinyi/API/HomeProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `fz_product` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_product_imgurl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='57' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='57' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0005s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='58' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='58' [ RunTime:0.0002s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='59' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='59' [ RunTime:0.0002s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='60' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='60' [ RunTime:0.0002s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='61' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='61' [ RunTime:0.0002s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='62' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='62' [ RunTime:0.0002s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='63' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='63' [ RunTime:0.0002s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='64' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='64' [ RunTime:0.0001s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-11-07T21:58:44+08:00 ] 192.168.1.104 /myweb/xinyi/API/HomeProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_product` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_product` LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_product_imgurl` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='57' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='57' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0003s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='58' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='58' [ RunTime:0.0002s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='59' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='59' [ RunTime:0.0001s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='60' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='60' [ RunTime:0.0001s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='61' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='61' [ RunTime:0.0001s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='62' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='62' [ RunTime:0.0001s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='63' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='63' [ RunTime:0.0001s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='64' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='64' [ RunTime:0.0002s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-11-07T21:58:44+08:00 ] 192.168.1.104 /myweb/xinyi/API/HomeProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `fz_product` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_product` LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `fz_product_imgurl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='57' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `fz_pattr` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='57' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fz_ptype` [ RunTime:0.0004s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='58' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='58' [ RunTime:0.0002s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='59' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='59' [ RunTime:0.0002s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='60' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='60' [ RunTime:0.0002s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='61' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='61' [ RunTime:0.0002s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='62' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='62' [ RunTime:0.0002s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='63' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='63' [ RunTime:0.0001s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `fz_product_imgurl` WHERE ( 1=1 AND product_id='64' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+NOTIC: [8] Undefined index: relation_foreign_key /home/flyzebra/myweb/xinyi/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 188 行.
+SQL: SELECT b.name,color FROM fz_product_pattr AS a, fz_pattr AS b WHERE a.pattr_id = b.id AND a. product_id='64' [ RunTime:0.0001s ]
+SQL: SELECT `ptype_name` FROM `fz_ptype` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0001s ]
+

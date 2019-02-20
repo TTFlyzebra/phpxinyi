@@ -1,0 +1,24 @@
+[ 2019-02-20T21:12:43+08:00 ] 192.168.1.88 /myweb/xinyi/Apps/Admin/Public/css/checkbox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Apps
+
+[ 2019-02-20T21:16:03+08:00 ] 192.168.1.88 /myweb/xinyi/img/arrow-white.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+ERR: 无法加载模块:Img
+
+[ 2019-02-20T21:16:03+08:00 ] 192.168.1.88 /myweb/xinyi/img/arrow-white.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+ERR: 无法加载模块:Img
+
+[ 2019-02-20T21:16:05+08:00 ] 192.168.1.88 /myweb/xinyi/img/arrow-white.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+ERR: 无法加载模块:Img
+
